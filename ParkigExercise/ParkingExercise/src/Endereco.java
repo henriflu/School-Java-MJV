@@ -15,6 +15,10 @@ public class Endereco {
     }
 
 
+    public Endereco() {
+    }
+
+
     public String getLogradouro() {
         return this.logradouro;
     }

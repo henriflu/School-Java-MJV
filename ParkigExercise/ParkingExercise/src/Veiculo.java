@@ -13,6 +13,10 @@ public class Veiculo {
     }
 
 
+    public Veiculo() {
+    }
+
+
     public String getTipo() {
         return this.tipo;
     }

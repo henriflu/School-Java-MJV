@@ -6,6 +6,7 @@ public class Cliente {
     private Endereco endereco;
     private String telefone;
     private Veiculo veiculo;
+    public Object get;
 
 
 
@@ -17,6 +18,10 @@ public class Cliente {
         this.endereco = endereco;
         this.telefone = telefone;
         this.veiculo = veiculo;
+    }
+
+
+    public Cliente() {
     }
 
 
